@@ -1,0 +1,119 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#image {
+    width: 450px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    color: black;
+
+}
+
+.link:hover {
+    background-color: dodgerblue;
+}
+
+.link {
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+#Home {
+    height: 800px;
+    background: linear-gradient(#54c3ff, #b5baeb);
+}
+
+#About {
+    height: 800px;
+    background-color: lightblue;
+}
+
+#title {
+    font-size: 70px;
+}
+
+#title2 {
+    font-size: 50px;
+}
+
+html {
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 25px;
+}
+#My-Inspiration{
+    background-color: lightcyan;
+}
+
+#title {
+    font-variant: small-caps;
+    font-size: 50px;
+    word-spacing: 10px;
+    color: blue;
+}
+
+#image1 {
+    width: 350px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: darkorchid;
+    padding: 5px;
+}
+
+#paragraph1 {
+    font-size: 23px;
+    color: darkslateblue;
+}
+#Videos{
+    background-color: lightpink;
+}
+#Swim-Teams{
+    background-color: #695ced;
+    height:730;
+    color: white;
+}
+#Swim-Teams a{
+    color: white !important;
+}
+#Contact{
+    background-color: #c5bfff;
+    height: 1000px;
+}
